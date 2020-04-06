@@ -5,6 +5,7 @@
 #include "Triangle.cpp"
 #include "Window.cpp"
 #include "Texture.cpp"
+#include "stb_image.h"
 
 int main()
 {
