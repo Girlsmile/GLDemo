@@ -4,10 +4,12 @@
 #include <iostream>
 #include "Triangle.cpp"
 #include "Window.cpp"
+#include "Texture.cpp"
 
 int main()
 {
 //    drawWindow();
-    drawTriangle();
+//    drawTriangle();
+    drawTexture();
     return 0;
 }

@@ -34,6 +34,10 @@ public:
         try
         {
             // open files
+            
+            printf("%s: %s\n", "vertexPath", vertexPath);
+            printf("%s: %s\n", "fragmentPath", fragmentPath);
+            
             vShaderFile.open(vertexPath);
             fShaderFile.open(fragmentPath);
             std::stringstream vShaderStream, fShaderStream;
