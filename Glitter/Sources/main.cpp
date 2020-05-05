@@ -6,11 +6,13 @@
 #include "Window.cpp"
 #include "Texture.cpp"
 #include "stb_image.h"
+//#include "Coor.cpp"
 
 int main()
 {
 //    drawWindow();
 //    drawTriangle();
     drawTexture();
+//    drawCoor();
     return 0;
 }
